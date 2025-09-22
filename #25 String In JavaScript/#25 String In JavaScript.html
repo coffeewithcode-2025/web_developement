@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strings In JavaScript</title>
+  </head>
+  <body>
+    strings in js
+
+    <script>
+      let message = "Welcome to our channel!";
+      let name = "Vansh Panwar";
+
+      console.log(message);
+      console.log(name);
+
+      console.log(name.length);
+
+      let text = "Line 1\nLine 2\nLine 3";
+      console.log(text);
+
+      let multiline = `This is line 1
+This is line 2
+This is line 3`;
+      console.log(multiline);
+
+      let word = "JavaScript";
+      console.log(word[0]);
+      console.log(word[4]);
+
+      let greeting = "Hello";
+      greeting[0] = "Y"; // This will not work
+      console.log(greeting); // Still "Hello"
+
+      let firstname= "Vansh"
+      let lastname= "Panwar"
+      let fullname=firstname + " " + lastname
+      console.log(fullname)
+    </script>
+  </body>
+</html>
