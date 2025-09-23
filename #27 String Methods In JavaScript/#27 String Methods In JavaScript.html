@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Mehdods In JS</title>
+  </head>
+  <body>
+    string methods
+
+    <script>
+      let text = "coffeewithcode";
+      console.log(text.length);
+
+      let name = "Ram";
+      console.log(name.toUpperCase());
+      console.log(name.toLowerCase());
+
+      let input = " Hello World ";
+      console.log(input.trim()); // "Hello World"
+
+      let msg = "Learn JavaScript";
+      console.log(msg.includes("Java")); // true
+      console.log(msg.includes("Python")); // false
+
+      let str = "banana";
+      console.log(str.indexOf("a")); // 1
+      console.log(str.lastIndexOf("a")); // 5
+
+      let title = "Frontend Developer";
+      console.log(title.startsWith("Front")); // true
+      console.log(title.endsWith("Dev")); // false
+
+      let word = "JavaScript";
+      console.log(word.slice(0, 4)); // "Java"
+      console.log(word.slice(4)); // "Script"
+
+      let text2 = "Coding";
+      console.log(text2.substring(0, 3)); // "Cod"
+
+      let msg2 = "I Love Python Python";
+      console.log(msg2.replace(/Python/g, "JavaScript"));
+
+      let data = "HTML,CSS,JavaScript";
+      let parts = data.split(",");
+      console.log(parts); // ["HTML", "CSS", "JavaScript"]
+
+      let lang = "JavaScript";
+      console.log(lang.charAt(4)); // "J"
+
+      let wow = "ha";
+      console.log(wow.repeat(3)); // "hahaha"
+    </script>
+  </body>
+</html>
